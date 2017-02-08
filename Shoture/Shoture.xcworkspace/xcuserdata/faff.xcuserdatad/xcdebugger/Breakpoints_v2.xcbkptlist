@@ -9,13 +9,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Shoture/Article.swift"
-            timestampString = "508154217.86505"
+            filePath = "Shoture/ArticleTableViewController.swift"
+            timestampString = "508233175.409207"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "fetchArticles(completion:)"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "fetchArticles()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

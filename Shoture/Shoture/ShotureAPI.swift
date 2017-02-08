@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Alamofire
 
 class ShotureAPI{
     static let sharedInstance = ShotureAPI()
@@ -16,5 +17,11 @@ class ShotureAPI{
     
     var articleListEndpoint: String{
         return apiBaseURL + "articles"
+    }
+    
+    // Fetch article
+    func getArticles(completion: @escaping (DataResponse<[Article]>) -> Void){
+        let URL = ShotureAPI.sharedInstance.articleListEndpoint
+        Alamofire.request(URL).responseArray(completionHandler: completion)
     }
 }

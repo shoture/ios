@@ -41,10 +41,5 @@ class Article: Mappable{
         articleURL <- map["article_url"]
     }
     
-    // Fetch article
-    
-    static func fetchArticles(completion: @escaping (DataResponse<[Article]>) -> Void){
-        let URL = ShotureAPI.sharedInstance.articleListEndpoint
-        Alamofire.request(URL).responseArray(completionHandler: completion)
-    }
+
 }

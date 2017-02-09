@@ -19,5 +19,53 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shoture/ArticleTableViewCell.swift"
+            timestampString = "508315072.388618"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "updateUI()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Shoture.ArticleTableViewCell.(updateUI in _185F24D2241185FD4EE165D915B109D1) () -&gt; ()"
+                  moduleName = "Shoture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/faff/Work/ios/Shoture/Shoture/ArticleTableViewCell.swift"
+                  timestampString = "508314922.067197"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "2816">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Shoture.ArticleTableViewCell.(updateUI in _185F24D2241185FD4EE165D915B109D1) () -&gt; ()"
+                  moduleName = "Shoture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/faff/Work/ios/Shoture/Shoture/ArticleTableViewCell.swift"
+                  timestampString = "508314922.074383"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "2864">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

@@ -19,10 +19,10 @@ class Article: Mappable{
     var id: Int?
     var articleName: String?
     var subtitle: String?
-    var coverImageURL: NSURL?
+    var coverImageURL: String?
     var publishDate: NSDate?
     var viewCount: Int?
-    var articleURL: NSURL?
+    var articleURL: String?
     
     // Mappable implementation
     
